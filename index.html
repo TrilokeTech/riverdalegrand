@@ -22,7 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
-<!-- Google tag (gtag.jss) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJREGKCZFY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -1104,7 +1104,7 @@ html,body{
       <h3 class="text-xl md:text-2xl text-gray-800 mb-6 text-center" style="font-family: 'Gotham', 'Montserrat', sans-serif; font-weight: 400;">Reach out to your dedicated Duville Estates Property Advisor</h3>
       <p class="text-gray-500 text-sm mb-6 text-center">Your time is important - we'll connect with you at your convenience.</p>
 
-      <form class="grid md:grid-cols-4 gap-4 items-end" action="crm.php" method="GET">
+      <form class="grid md:grid-cols-4 gap-4 items-end" action="https://riverdalegrand.duville.com/crm.php" method="GET">
         <div>
           <label class="block text-sm text-gray-700 mb-1">Name</label>
           <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 text-[15px] text-gray-800 outline-none focus:border-brand-green bg-transparent transition-colors" placeholder="">
@@ -2185,7 +2185,7 @@ html,body{
         We would be happy to help you with your home requirement. Use the form below to get a Riverdale Grand employee to get in touch with you and discuss and advise on your requirements.
       </p>
 
-      <form class="space-y-5" action="crm.php" method="GET">
+      <form class="space-y-5" action="https://riverdalegrand.duville.com/crm.php" method="GET">
         <div>
           <label class="block text-sm text-gray-700 mb-1">Name</label>
           <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 text-[15px] text-gray-800 outline-none focus:border-brand-green bg-transparent transition-colors" placeholder="">
@@ -3036,7 +3036,7 @@ $(function(){
       <h3 class="text-xl text-gray-800" style="font-family: 'Gotham', 'Montserrat', sans-serif; font-weight: 400;">Let's Find Your Perfect Home</h3>
     </div>
 
-    <form class="space-y-5" action="crm.php" method="GET">
+    <form class="space-y-5" action="https://riverdalegrand.duville.com/crm.php" method="GET">
       <div>
         <label class="block text-sm text-gray-700 mb-1">Name</label>
         <input type="text" name="name" required class="w-full border-b border-gray-300 py-2 text-[15px] text-gray-800 outline-none focus:border-brand-green bg-transparent transition-colors" placeholder="">
@@ -3104,7 +3104,7 @@ $(document).on('input', 'input[type="tel"][name="phone"]', function() {
   $(this).val(val);
 });
 
-$(document).on('submit', 'form[action="crm.php"]', function(e) {
+$(document).on('submit', 'form[action="https://riverdalegrand.duville.com/crm.php"]', function(e) {
   var phone = $(this).find('input[name="phone"]').val().replace(/\D/g, '');
   if (phone.length !== 10) {
     e.preventDefault();
